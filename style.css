@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+    margin: 0px;
+    margin-top: 10px;
+}
+h2 {
+    font-family: 'Dosis', sans-serif;
+}
+p { 
+    text-align: center;
+}
+.box {
+    width: 100%;
+    height: 1000px;
+
+}
+.primaryPalette {
+    display: inline-block;
+    position: relative;
+    width: 95%;
+    height: 25%;
+    margin-left: 2.5%;
+}
+#pp-1, #pp-2, #pp-3, #pp-4, #pp-5 {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+}
+#pp-1 {
+    background-color: #5e2bff;
+}
+#pp-2 {
+    background-color: #e0efde;
+    left: 20%;
+}
+#pp-3 {
+    background-color: #f96db8;
+    left:40%;
+}
+#pp-4 {
+    background-color: #f34213;
+    left: 60%;
+}
+#pp-5 {
+    background-color: #ffb800;
+    left: 80%;
+}
+.secondaryPalette {
+    display: inline-block;
+    position: relative;
+    width: 95%;
+    height: 50%;
+    top: 5%;
+    margin-left: 2.5%;
+}
+#sp-1, #sp-2, #sp-3, #sp-4, #sp-5,
+#sp-6, #sp-7, #sp-8, #sp-9, #sp-10,
+#sp-11, #sp-12, #sp-13, #sp-14, #sp-15 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
+#sp-1 {
+    background-color: #F7F3E3;
+}
+#sp-2 {
+    background-color: #92aa83;
+    left: 20%;
+}
+#sp-3 {
+    background-color: #F5EDF0;
+    left:40%;
+}
+#sp-4 {
+    background-color: #d17b04;
+    left: 60%;
+}
+#sp-5 {
+    background-color: #fff07c;
+    left: 80%;
+}
+#sp-6 {
+    background-color: #9cadce;
+    top: 275px;
+}
+#sp-7 {
+    background-color: #307351;
+    left: 20%;
+    top: 275px;
+}
+#sp-8 {
+    background-color: #6f2dbd;
+    left:40%;
+    top: 275px;
+}
+#sp-9 {
+    background-color: #a40e4c;
+    left: 60%;
+    top: 275px;
+}
+#sp-10 {
+    background-color: #ffd23f;
+    left: 80%;
+    top: 275px;
+}
+
+.neutralPalette {
+    display: inline-block;
+    position: relative;
+    width: 95%;
+    height: 25%;
+    margin-left: 2.5%;
+    ;
+}
+#np-1, #np-2, #np-3, #np-4, #np-5 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#np-1 {
+    background-color: #D9DBF1;
+}
+#np-2 {
+    background-color: #EEF4ED;
+    left: 20%;
+}
+#np-3 {
+    background-color: #EFD9CE;
+    left:40%;
+}
+#np-4 {
+    background-color: #F9DBBD;
+    left: 60%;
+}
+#np-5 {
+    background-color: #F8DDA4;
+    left: 80%;
+}
